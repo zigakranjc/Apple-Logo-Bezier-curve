@@ -10,14 +10,51 @@ body{
 	justify-content:center;
 	align-items:center;
 	height:100vh;
+	gap:70px;
 }
 .svg path{
 	fill:black;
 }
 h1{
 	text-align:center;
+	font-family:arial;
 }
 .png{
 	height:250px;
 	width:250px;
+}
+.canvasOzadje{
+	height:500px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-radius:10%;
+	background-image:url("img/iphone1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.svgOzadje{
+	height:500px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-radius:10%;
+	background-image:url("img/iphone1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.pngOzadje{
+	height:500px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-radius:10%;
+	background-image:url("img/iphone1.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+svg path:hover{
+	transform: scale(1.2);
+	fill: red;
 }
