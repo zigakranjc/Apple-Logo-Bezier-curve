@@ -25,13 +25,16 @@ h1{
 }
 .canvasOzadje{
 	height:500px;
+
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	border-radius:10%;
-	background-image:url("img/iphone1.png");
+	background-image:url("img/iphone.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
+    background-position: center;
+
 }
 .svgOzadje{
 	height:500px;
@@ -39,9 +42,14 @@ h1{
 	align-items:center;
 	justify-content:center;
 	border-radius:10%;
-	background-image:url("img/iphone1.png");
+	background-image:url("img/iphone.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
+    background-position: center;
+}
+.svg {
+  transform: scale(0.27); /* Povečanje slike za 1.5-krat */
+  transform-origin: center; /* Zagotovi, da se slika povečuje okoli sredine */
 }
 .pngOzadje{
 	height:500px;
@@ -49,9 +57,14 @@ h1{
 	align-items:center;
 	justify-content:center;
 	border-radius:10%;
-	background-image:url("img/iphone1.png");
+	background-image:url("img/iphone.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
+    background-position: center;
+}
+.png{
+	transform: scale(0.43);
+	transform-origin: center;
 }
 
 svg path:hover{
