@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>apple</title>
-		<link rel="stylesheet" href="stil.css">
-	</head>
-	<body>
-		<h1>APPLE LOGOS</h1><hr/>
-		<div class="vsi">
-			<div class="canvasOzadje">
-				<canvas id="canvas" width="250" height="250"></canvas>
-			</div>
-			<div class="pngOzadje">
-				<img src="img/apple.png" alt="png" class="png">
-			</div>
-			<div class="svgOzadje">
-				<svg xmlns="http://www.w3.org/2000/svg" width="250px" height="250px" viewBox="150 50 600 720" class="svg">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="250px" height="250px" viewBox="150 50 600 720" class="svg">
 				<path id="Selection"
 					fill="none" stroke="black" stroke-width="1"
 					d="M 595.00,50.00
@@ -54,8 +39,3 @@
 						 688.19,527.33 716.25,550.05 744.00,562.00 Z" 
 					/>
 			</svg>
-		</div>
-	</div>
-	<script src="skripta.js"></script>
-	</body>
-</html>
