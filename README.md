@@ -1,4 +1,4 @@
-<h1 align="center"> Apple Logo Bezier Curve <h1>
+<h1 align="center"> Apple Logo Bezier Curve </h1>
 
 A web project that demonstrates the creation of Apple logos using Bezier curves. The project includes interactive SVG, Canvas-drawn, and PNG versions of the Apple logo, integrated into a modern Apple-style webpage template.
 
