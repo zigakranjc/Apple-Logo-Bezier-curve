@@ -119,8 +119,8 @@ button {
 }
 
 .nav-logo svg {
-    width: 35.7px;
-    height: 44px;
+    width: 30px;
+    height: 37px;
 }
 
 .nav-list {
@@ -359,9 +359,11 @@ button {
 }
 
 .hero__apple-logo {
-    width: 24px;
-    height: 28px;
+    width: 48px;
+    height: 48px;
     fill: currentColor;
+    object-fit: contain;
+    padding-bottom:6px;
 }
 
 .hero__watch-text {
@@ -1040,7 +1042,7 @@ button {
     }
 
     .hero__logo {
-        font-size: 1.25rem;
+        font-size: 1.25px;
     }
 
     .hero__apple-logo {
