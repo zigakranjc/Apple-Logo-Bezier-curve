@@ -2,8 +2,22 @@ window.onload = function(){
 var canvas = document.getElementById("canvas");
 var ctx= canvas.getContext("2d");
 
-	   var scale = 0.075;
-    	ctx.scale(scale, scale);
+    // Originalna velikost risbe
+    const originalWidth = 1200;   // največji X v tvojih koordinatah
+    const originalHeight = 1300;  // največji Y v tvojih koordinatah
+
+    // Retina zaslon
+    const ratio = window.devicePixelRatio || 1;
+
+    // Nastavimo velikost canvas-a
+    canvas.width = originalWidth * ratio;
+    canvas.height = originalHeight * ratio;
+
+    // CSS za prikaz canvas-a znotraj iphone-screen
+    canvas.style.width = "280px";    // iphone-screen width
+    canvas.style.height = "580px";   // iphone-screen height
+
+    ctx.scale(ratio, ratio); // za ostro risbo na retina
 
       ctx.lineWidth=3;
       ctx.fillStyle = "black";
@@ -28,4 +42,4 @@ var ctx= canvas.getContext("2d");
 
       ctx.fill();
       ctx.stroke();
-    };
+};
