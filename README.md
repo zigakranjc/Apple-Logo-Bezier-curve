@@ -35,14 +35,6 @@ A web project that demonstrates the creation of Apple logos using Bezier curves.
 - `img/`: Folder containing PNG images (apple.png, iphone.png, etc.).
 - Other files: Original versions and backups.
 
-## Screenshots
-
-(Add screenshots here if available)
-
-## Contributing
-prove
-Feel free to fork and contribute imments!
-
 ## License
 
 This project is for educational purposes. Apple logos are trademarked by Apple Inc.
