@@ -119,8 +119,7 @@ button {
 }
 
 .nav-logo svg {
-    width: 20px;
-    height: 27px;
+    height: 19px;
 }
 
 .nav-list {
@@ -346,6 +345,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:center;
     margin-bottom: var(--spacing-sm);
 }
 
@@ -357,11 +357,11 @@ button {
 }
 
 .hero__apple-logo {
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     filter: brightness(0) invert(1);
     object-fit: contain;
-    padding-bottom:13px;
+    padding-bottom:15px;
 }
 
 .hero__watch-text {
@@ -385,6 +385,7 @@ button {
     margin: 0 auto var(--spacing-lg);
 }
 
+
 .hero__watches{
     height:300px;
 }
@@ -393,6 +394,11 @@ button {
     display: flex;
     gap: var(--spacing-sm);
     justify-content: center;
+}
+
+.hero.hero--watch{
+    padding-bottom:50px;
+    border-bottom:10px solid white;
 }
 
 /* =====================================================
@@ -505,6 +511,11 @@ button {
     border-radius: 0 0 20px 20px;
 }
 
+
+.product-section.product-section--iphone{
+    padding-bottom:50px;
+    border-bottom:10px solid white;
+}
 /* =====================================================
    PRODUCT SECTION – iPAD AIR
 ===================================================== */
@@ -595,6 +606,11 @@ button {
     bottom: 12px;
     background: linear-gradient(135deg, #5ac8fa 0%, #007aff 50%, #5856d6 100%);
     border-radius: 12px;
+}
+
+.product-section.product-section--ipad-air{
+    padding-bottom:50px;
+    border-bottom:10px solid white;
 }
 
 /* =====================================================
@@ -941,6 +957,11 @@ button {
     height: 6px;
     background: linear-gradient(145deg, #ff9500, #ff6b00);
     border-radius: 50%;
+}
+
+.promo-grid{
+    padding-bottom:50px;
+    border-bottom:10px solid white;
 }
 
 /* =====================================================
