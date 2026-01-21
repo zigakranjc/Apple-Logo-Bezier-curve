@@ -82,6 +82,23 @@ var ctx= canvas.getContext("2d");
   
       requestAnimationFrame(animate);
     }
-  
+    
     animate();
   };
+
+	const learnMore = document.getElementById('learnMore');
+
+  learnMore.addEventListener('click', function (event){
+		event.preventDefault(); // brez tega ne pokaže alerta, ker gre kr naprej
+		Swal.fire({
+			title: 'Avtor',
+			text: 'Žiga Kranjc, 4. Rb',
+			icon: 'info',
+			confirmButtonText: 'OK',
+			buttonsStyling: false, // zelo pomembno
+	    customClass: {
+        popup:'swal-gradient',
+		    confirmButton: 'pill-button'
+      }
+		});
+	});
