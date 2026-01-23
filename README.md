@@ -8,6 +8,17 @@ A web project that demonstrates the creation of Apple logos using Bezier curves.
 - **Canvas Logo**: Dynamically drawn Apple logo using JavaScript and Canvas API.
 - **PNG Logo**: Static image version.
 - **Responsive Design**: Apple-inspired webpage template with navigation, hero sections, and product cards.
+- 
+##  Project structure
+```
+Apple-Logo-Bezier-curve/
+├── index.html          # Landing page
+├── stil.css            # Styles for index.html
+├── skripta.js          # Bezier curve, animation, sweet alert
+├── img/                # Logos, favicon
+├── LICENSE             # Project license
+└── README.md
+```
 
 ## Technologies Used
 
